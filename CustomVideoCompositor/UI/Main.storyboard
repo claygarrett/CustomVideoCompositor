@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="uWd-RN-0Tq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="mIZ-iz-2nB">
+            <objects>
+                <viewController id="uWd-RN-0Tq" customClass="ViewController" customModule="CustomVideoCompositor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tWd-yV-Vqr"/>
+                        <viewControllerLayoutGuide type="bottom" id="11B-3f-SuV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="P55-tA-muP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CY5-AQ-iWA">
+                                <rect key="frame" x="36" y="40" width="303" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="AiR-rW-XAv"/>
+                                </constraints>
+                                <string key="text">When you see "Done!" in the console, video export is complete. Download the app container to view the exported video.
+
+To download the container, in XCode, choose Window &gt; Devices, choose your mobile device, and then find CustomVideoCompositor. Click on it, click the gear and choose Download Container. When it's done exporting, right click the package it downloaded, choose show contents, and navigate to AppData/tmp to view the video.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CY5-AQ-iWA" firstAttribute="leading" secondItem="P55-tA-muP" secondAttribute="leadingMargin" constant="20" id="8jE-dF-2X4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CY5-AQ-iWA" secondAttribute="trailing" constant="20" id="K2a-Wx-0xr"/>
+                            <constraint firstItem="CY5-AQ-iWA" firstAttribute="top" secondItem="tWd-yV-Vqr" secondAttribute="bottom" constant="20" id="Q0A-oa-bTO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ok9-Yx-9tt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="629.60000000000002" y="71.514242878560722"/>
+        </scene>
+    </scenes>
+</document>

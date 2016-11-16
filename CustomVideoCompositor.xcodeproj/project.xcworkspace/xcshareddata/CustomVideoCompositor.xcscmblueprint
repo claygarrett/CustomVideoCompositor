@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "361A0ADA6F1BA177F69C28659796EE14701AA284",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "480ECCA782BC03EA3F5ED5344256ADD11A32897E" : 9223372036854775807,
+    "361A0ADA6F1BA177F69C28659796EE14701AA284" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E256B047-DE84-43C9-AD61-A0212DDF28AA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "480ECCA782BC03EA3F5ED5344256ADD11A32897E" : "avplayer-bug\/",
+    "361A0ADA6F1BA177F69C28659796EE14701AA284" : "CustomVideoCompositor\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CustomVideoCompositor",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CustomVideoCompositor.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:claygarrett\/CustomVideoCompositor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "361A0ADA6F1BA177F69C28659796EE14701AA284"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:claygarrett\/avplayer-bug.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "480ECCA782BC03EA3F5ED5344256ADD11A32897E"
+    }
+  ]
+}

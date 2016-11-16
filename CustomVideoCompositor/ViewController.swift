@@ -1,25 +1,29 @@
 //
 //  ViewController.swift
-//  CustomVideoCompositor
+//  AVPlayerLayerBug
 //
 //  Created by Clay Garrett on 11/16/16.
 //  Copyright © 2016 Clay Garrett. All rights reserved.
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var videoView: UIView!
+    
+    private var playerLayer: AVPlayerLayer?
+    private var player: AVPlayer?
+    private var playerItem: AVPlayerItem?
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        exportVideo()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func exportVideo() {
+        let exporter = VideoExporter()
+        exporter.export()
     }
-
-
 }
 
