@@ -68,7 +68,7 @@ class VideoExporter: NSObject {
         do {
             try fileManager.removeItem(at: url)
         }
-        catch let _ as NSError {
+        catch _ as NSError {
             
         }
     }
