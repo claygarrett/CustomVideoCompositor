@@ -1,6 +1,9 @@
 # CustomVideoCompositor
 A project to help users workaround a bug in iOS 10.0-10.1 related to AVAssetExportSession and AVVideoCompositionCoreAnimationTool
 
+# Sample Output
+![Sample Output](http://i.imgur.com/ovzm4QU.gif "Logo Title Text 1")
+
 # Background
 In iOS 10, a bug in AVFoundation was introduced that causes `AVPlayer` instances to sometimes stop showing video (while continuing to play audio). This occurs after an instance of `AVAssetExportSession` runs if it utilizes `AVVideoCompositionCoreAnimationTool`. This class is commonly used to do various types compositing of images / video. One common scenario is adding a watermark on top of a video while exporting.
 
