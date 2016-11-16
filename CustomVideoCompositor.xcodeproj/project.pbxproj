@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9C1CF551DDCF93900E9B92E /* VideoExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C1CF541DDCF93900E9B92E /* VideoExporter.swift */; };
 		E9C1CF571DDCF9B400E9B92E /* CustomVideoCompositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C1CF561DDCF9B400E9B92E /* CustomVideoCompositor.swift */; };
-		E9C1CF591DDCFB4200E9B92E /* Video Processing in Sources */ = {isa = PBXBuildFile; fileRef = E9C1CF581DDCFB4200E9B92E /* Video Processing */; };
 		E9C1CF5E1DDD018100E9B92E /* sorry.mov in Resources */ = {isa = PBXBuildFile; fileRef = E9C1CF5C1DDD018100E9B92E /* sorry.mov */; };
 		E9C1CF611DDD01C300E9B92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C1CF601DDD01C300E9B92E /* Main.storyboard */; };
 		E9C1CF631DDD057D00E9B92E /* panda.png in Resources */ = {isa = PBXBuildFile; fileRef = E9C1CF621DDD057D00E9B92E /* panda.png */; };
+		E9F8EAD41DDD0F44006EE33B /* VideoExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8EAD11DDD0F44006EE33B /* VideoExporter.swift */; };
+		E9F8EAD51DDD0F44006EE33B /* WatermarkCompositionInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8EAD21DDD0F44006EE33B /* WatermarkCompositionInstruction.swift */; };
 		E9FEAE1F1DDCF8C90065CD7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEAE1E1DDCF8C90065CD7F /* AppDelegate.swift */; };
 		E9FEAE211DDCF8C90065CD7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEAE201DDCF8C90065CD7F /* ViewController.swift */; };
 		E9FEAE261DDCF8C90065CD7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FEAE251DDCF8C90065CD7F /* Assets.xcassets */; };
@@ -20,12 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E9C1CF541DDCF93900E9B92E /* VideoExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoExporter.swift; path = "../../avplayer-bug/AVPlayerLayerBug/VideoExporter.swift"; sourceTree = "<group>"; };
 		E9C1CF561DDCF9B400E9B92E /* CustomVideoCompositor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomVideoCompositor.swift; path = "Video Processing/CustomVideoCompositor.swift"; sourceTree = "<group>"; };
-		E9C1CF581DDCFB4200E9B92E /* Video Processing */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = "Video Processing"; sourceTree = "<group>"; };
 		E9C1CF5C1DDD018100E9B92E /* sorry.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = sorry.mov; path = Media/sorry.mov; sourceTree = "<group>"; };
 		E9C1CF601DDD01C300E9B92E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = UI/Main.storyboard; sourceTree = "<group>"; };
 		E9C1CF621DDD057D00E9B92E /* panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = panda.png; path = Media/panda.png; sourceTree = "<group>"; };
+		E9F8EAD11DDD0F44006EE33B /* VideoExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoExporter.swift; path = "Video Processing/VideoExporter.swift"; sourceTree = "<group>"; };
+		E9F8EAD21DDD0F44006EE33B /* WatermarkCompositionInstruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatermarkCompositionInstruction.swift; path = "Video Processing/WatermarkCompositionInstruction.swift"; sourceTree = "<group>"; };
 		E9FEAE1B1DDCF8C90065CD7F /* CustomVideoCompositor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomVideoCompositor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FEAE1E1DDCF8C90065CD7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9FEAE201DDCF8C90065CD7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,8 +56,8 @@
 		E9C1CF651DDD08B300E9B92E /* Video Processing */ = {
 			isa = PBXGroup;
 			children = (
-				E9C1CF541DDCF93900E9B92E /* VideoExporter.swift */,
-				E9C1CF581DDCFB4200E9B92E /* Video Processing */,
+				E9F8EAD11DDD0F44006EE33B /* VideoExporter.swift */,
+				E9F8EAD21DDD0F44006EE33B /* WatermarkCompositionInstruction.swift */,
 				E9C1CF561DDCF9B400E9B92E /* CustomVideoCompositor.swift */,
 			);
 			name = "Video Processing";
@@ -178,10 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F8EAD41DDD0F44006EE33B /* VideoExporter.swift in Sources */,
 				E9FEAE211DDCF8C90065CD7F /* ViewController.swift in Sources */,
-				E9C1CF591DDCFB4200E9B92E /* Video Processing in Sources */,
 				E9FEAE1F1DDCF8C90065CD7F /* AppDelegate.swift in Sources */,
-				E9C1CF551DDCF93900E9B92E /* VideoExporter.swift in Sources */,
+				E9F8EAD51DDD0F44006EE33B /* WatermarkCompositionInstruction.swift in Sources */,
 				E9C1CF571DDCF9B400E9B92E /* CustomVideoCompositor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
